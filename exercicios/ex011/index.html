@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos ou almentar e diminuir a janela</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/m.jpg" type="image/jpg">
+        <img src="imagens/g.jpg" alt="imagem flexivel">
+    </picture>
+    <h1>Reprodusindo audio</h1>
+    <p>Vamos aprender a colocar audios</p>
+    <audio src="midia/som.mp3" controls autoplay></audio> maneira simples
+    <!--<audio autoplay controls loop>
+        <source srcset="midia/som.mp3" type="audio/mpeg">
+    </audio> n funcionou-->
+    
+
+</body>
+</html>

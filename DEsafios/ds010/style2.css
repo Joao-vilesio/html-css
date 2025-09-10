@@ -1,0 +1,44 @@
+@font-face {
+    font-family: face;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "idroid" ,sans-serif;
+    background-color: #84e1ad;
+}
+
+header {
+    background: linear-gradient(0deg, rgb(1, 54, 13), #3cd782);
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+#bloco1 {
+    background-color: white;
+}
+
+#bloco1 h1 {
+    color: rgb(70, 133, 7);
+}
+
+h2 {
+    color: rgb(70, 133, 7);
+}
+
+#bloco2 {
+    border: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 30px;
+}
