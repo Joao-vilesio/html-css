@@ -8,6 +8,10 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        thead {
+            background-color: rgb(177, 177, 177);
+        }
+
         table {
             border-collapse: collapse;
         }
@@ -19,25 +23,81 @@
         }
 
         th, td {
-            border: 1px solid gray;
+            border: 2px solid rgb(0, 0, 0);
             padding: 10px;
 
+        }
+
+        .total {
+            background-color: rgb(177, 177, 177);
         }
     </style>
     <title>Ds014</title>
 </head>
 <body>
     <Table>
+        <caption>Tabela de media</caption>
         <thead>
-            <td rowspan="2">Áreas</td>
-            <td rowspan="2">Disciplinas</td>
-            <td colspan="2">Notas</td>
-            <td rowspan="2">Média</td>
-            <tr>               
-                <td>Nota1</td>
-                <td>Nota2</td>
+            <tr>
+                <th rowspan="2">Áreas</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
             </tr>
-</thead>
+            <tr>               
+                <th>Nota1</th>
+                <th>Nota2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="total">
+                <td colspan="4" >Médias Exatas</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="total">
+                <td colspan="4">Médias humanas</td>
+                <td>0.0</td>
+            </tr>
+
+        </tbody>
     </Table>
 </body>
 </html>
